@@ -1,3 +1,13 @@
 .top_bar{
-    background-color:palevioletred;
+    background-color:rgb(255, 154, 154);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 0px 20px;
+}
+.top_bar_text{
+    color: white;
+    font-size:xx-large;
+    
 }
