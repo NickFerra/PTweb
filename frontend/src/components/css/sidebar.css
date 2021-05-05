@@ -3,9 +3,10 @@
     align-items:right;
     flex-direction: column;
     background-color: #FF9A9A;
-    width: 70px;
+    width: 100px;
     height:100vh;
     float: right;
+    text-align: center;
 }
 
 .sidebutton, .sidebuttontop{
@@ -15,4 +16,11 @@
     font-family: "Abril Fatface";
     border: none;
     background-color: transparent;
+    text-decoration: none;
+}
+.sidebuttontop{
+    position: fixed;
+    bottom: 0;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
