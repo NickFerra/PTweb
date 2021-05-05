@@ -1,10 +1,12 @@
 import './App.css';
-import Top_bar from "./components/top_bar.js";
+import TopBar from "./components/top_bar.js";
+import Sidebar from "./components/sidebar.js";
 
 function App() {
   return (
     <div>
-      <Top_bar />
+      <TopBar />
+      <Sidebar />
     </div>
   );
 }
